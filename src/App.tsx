@@ -4,7 +4,7 @@ import axios from "axios";
 import UserAdd from "./Components/UserAdd";
 
 const App = () => {
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useState([]) ;
 
   const  Axiosfn =() =>{
     axios.get("http://localhost:3001/users")
